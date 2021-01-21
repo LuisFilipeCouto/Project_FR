@@ -4,7 +4,7 @@
 With the purpose of learning the fundamental principles, protocols and practice of networking, this project revolves around building a business communication network and a TCP Client-Server application.<br>
 
 The [**communication network**](network_GNS3) is implemented in GNS3 and has the following characteristics:
-  - Contains multiple CISCO components such as layer 2 switches, layer 3 switches and routers 
+  - Contains multiple CISCO components such as ethernet switches, layer 3 switches and routers 
   - Public and private IPv4 addressing, aswell as IPv6 
   - OSPF routing protocol on all L3 interfaces
   - NAT/PAT enabled 
