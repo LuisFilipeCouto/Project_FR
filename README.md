@@ -1,11 +1,19 @@
 # Project_FR
 
 ### About the project
-With the purpose of learning the fundamental principles, protocols and practice of networking, this project is divided into two tasks:<br>
+With the purpose of learning the fundamental principles, protocols and practice of networking, this project revolves around building a business communication network and a TCP Client-Server application.<br>
 
-  - [**Communication network of a company**](Modulos/ContadorEstoc.java) implemented in GNS3. Contains multiple CISCO components and makes use of protocols such as DHCP, NAT/PAT, OSFP, HTTP/HTTPS and DNS 
-  - [**Client-Server application**](Modulos/CountingBloomFilter.java) using python that allows multiple clients to periodically notify a central server of details such as their CPU utilization and percentage of memory in use
-
+The [**communication network**](network_GNS3) is implemented in GNS3 and has the following characteristics:
+  - Contains multiple CISCO components such as layer 2 switches, layer 3 switches and routers 
+  - Public and private IPv4 addressing, aswell as IPv6 
+  - OSPF routing protocol on all L3 interfaces
+  - NAT/PAT enabled 
+  - DHCP server enabled
+  - 4 distinct VLAN and 2 distinct LAN 
+  - Full connectivity inside the network
+  - Full connectivity with internet
+  
+  The [**TCP Client-Server application**](client_server_code) is implemented using python and allows multiple clients to periodically notify a central server of details such as their CPU utilization and percentage of memory in use
 
 ### Detailed description/usage
 Read the project report -> [**Objective1_Report.pdf**](Objective1_Report.pdf).
