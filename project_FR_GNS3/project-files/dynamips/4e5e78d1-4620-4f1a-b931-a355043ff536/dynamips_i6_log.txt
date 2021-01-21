@@ -1,0 +1,28 @@
+Dec 29 02:52:16.620 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 29 02:52:16.620 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 60956.
+Dec 29 02:52:16.625 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 29 02:52:16.625 HYPERVISOR: exec_cmd: hypervisor working_dir E:\FR\project_FR\project-files\dynamips 
+Dec 29 02:52:16.625 GENERAL: working_dir=E:\FR\project_FR\project-files\dynamips
+Dec 29 02:52:16.625 HYPERVISOR: exec_cmd: hypervisor working_dir E:\FR\project_FR\project-files\dynamips\86c13924-a71c-4831-8ac6-6984d7d511bb 
+Dec 29 02:52:16.625 GENERAL: working_dir=E:\FR\project_FR\project-files\dynamips\86c13924-a71c-4831-8ac6-6984d7d511bb
+Dec 29 02:52:16.625 HYPERVISOR: exec_cmd: vm create C1 3 c3725 
+Dec 29 02:52:16.625 VM: VM C1 created.
+Dec 29 02:52:16.625 HYPERVISOR: exec_cmd: vm set_con_tcp_port C1 5018 
+Dec 29 02:52:16.625 HYPERVISOR: exec_cmd: c3725 get_mac_addr C1 
+Dec 29 02:52:16.625 HYPERVISOR: exec_cmd: vm set_disk0 C1 1 
+Dec 29 02:52:16.625 HYPERVISOR: exec_cmd: vm set_exec_area C1 64 
+Dec 29 02:52:16.625 HYPERVISOR: exec_cmd: vm get_status C1 
+Dec 29 02:52:16.625 HYPERVISOR: exec_cmd: vm set_idle_pc C1 0x60a6a1e0 
+Dec 29 02:52:16.625 HYPERVISOR: exec_cmd: vm set_ios C1 C:/Users/LuísCouto/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 29 02:52:16.625 HYPERVISOR: exec_cmd: c3725 set_mac_addr C1 c203.31ac.0000 
+Dec 29 02:52:16.625 HYPERVISOR: exec_cmd: vm set_nvram C1 256 
+Dec 29 02:52:16.625 HYPERVISOR: exec_cmd: vm set_ram C1 256 
+Dec 29 02:52:16.625 HYPERVISOR: exec_cmd: vm get_status C1 
+Dec 29 02:52:16.625 HYPERVISOR: exec_cmd: vm slot_add_binding C1 1 0 NM-16ESW 
+Dec 29 02:52:21.960 HYPERVISOR: exec_cmd: vm get_status C1 
+Dec 29 02:52:21.965 HYPERVISOR: exec_cmd: vm extract_config C1 
+Dec 29 02:52:21.969 HYPERVISOR: exec_cmd: vm delete C1 
+Dec 29 02:52:21.969 VM: VM C1 destroyed.
+Dec 29 02:52:21.981 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 29 02:52:22.189 HYPERVISOR: Stopped.
+Dec 29 02:52:22.189 GENERAL: reset done.
