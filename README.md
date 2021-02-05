@@ -12,10 +12,11 @@ The [**communication network**](network_GNS3) is implemented in GNS3 and has the
   - 4 distinct VLAN and 2 distinct LAN 
   - Full connectivity inside the network
   - Full connectivity with internet
-  
-  ![alt text](communication_network.png "Imagem ilustrativa do projeto no GNS3")
- <br/><br/>
+
    The [**TCP Client-Server application**](client_server_code) is implemented using python and allows multiple clients to periodically notify a central server of details such as their CPU utilization and percentage of memory in use.
+    <br/><br/>
+    
+   ![alt text](communication_network.png "Imagem ilustrativa do projeto no GNS3")
 
 ### Detailed description/usage
 Read the project report -> [**Objective1_Report.pdf**](Objective1_Report.pdf).
