@@ -21,6 +21,3 @@ The [**communication network**](network_GNS3) is implemented in GNS3 and has the
     
 ### Detailed description/usage
 Read the project report -> [**Objective1_Report.pdf**](Objective1_Report.pdf)
-
-### Programming/Scripting/Markup Languages
-`Python`
